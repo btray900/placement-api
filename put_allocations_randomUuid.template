@@ -1,0 +1,23 @@
+PUT /placement/allocations/CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]| HTTP/1.1
+Accept: application/json
+Content-Type: application/json
+openstack-api-version: placement 1.13
+X-Auth-Token: CALL_EXTERNAL|syntribos.extensions.identity.client:get_scoped_token_v3:["user"]|
+
+{
+  "allocations": {
+    "CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|": {
+      "resources": {
+        "DISK_GB": 20
+      }
+    },
+    "CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|": {
+      "resources": {
+        "MEMORY_MB": 1024,
+        "VCPU": 1
+      }
+    }
+  },
+  "user_id": "CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|",
+  "project_id": "CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]|"
+}

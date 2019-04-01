@@ -1,0 +1,4 @@
+GET /placement/ HTTP/1.1
+Accept: application/json
+openstack-api-version: placement 1.13
+
