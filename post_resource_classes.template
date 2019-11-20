@@ -1,4 +1,4 @@
-POST /placement/resource_providers HTTP/1.1
+POST /placement/resource_classes HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 openstack-api-version: placement 1.13

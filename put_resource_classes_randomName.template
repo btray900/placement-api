@@ -1,4 +1,4 @@
-PUT /placement/resource_providers/CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]| HTTP/1.1
+PUT /placement/resource_classes/CALL_EXTERNAL|syntribos.extensions.random_data.client:get_uuid:[]| HTTP/1.1
 Accept: application/json
 Content-Type: application/json
 openstack-api-version: placement 1.13
